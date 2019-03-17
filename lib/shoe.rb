@@ -6,7 +6,7 @@ class Shoe
   BRANDS = []
   def initialize(brand)
     @brand = brand
-    BRANDS << brand
+     BRANDS << brand unless BRANDS.include?(brand)
     
   end
 
@@ -14,12 +14,7 @@ class Shoe
     self.condition = "new"
     puts "Your shoe is as good as new!"
   end
-  
-    def brands
-    BRANDS << brand unless BRANDS.include?(brand)
-      
-      
-    end
+
   
   
    binding.pry
