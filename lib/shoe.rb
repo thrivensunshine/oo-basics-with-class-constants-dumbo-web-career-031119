@@ -18,7 +18,8 @@ class Shoe
     unniq = BRANDS.uniq
     unniq
     
-    binding.pry
+    
    end
+   binding.pry
 
 end
