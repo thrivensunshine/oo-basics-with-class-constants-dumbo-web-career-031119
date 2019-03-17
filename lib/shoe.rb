@@ -16,9 +16,13 @@ class Shoe
   end
   
     def brand
-    BRANDS.uniq
-    
-  end
-   binding.pry
+      test_it = BRANDS.uniq
+      puts test_it
+      binding.pry
+      
+    end
+  
+  
+   
 
 end
