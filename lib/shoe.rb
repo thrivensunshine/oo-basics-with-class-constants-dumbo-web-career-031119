@@ -6,6 +6,9 @@ class Shoe
   BRANDS = []
   def initialize(brand)
     @brand = brand
+    
+    # I had to look this up, I would not have gotten the unless thing on my own. good to put to memory
+    
      BRANDS << brand unless BRANDS.include?(brand)
     
   end
