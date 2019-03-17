@@ -15,8 +15,8 @@ class Shoe
   end
   
     def brands
-    unniq = BRANDS.uniq
-    unniq
+    BRANDS.uniq
+    
     
     
    end
