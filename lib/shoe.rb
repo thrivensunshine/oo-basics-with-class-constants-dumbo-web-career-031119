@@ -16,8 +16,7 @@ class Shoe
   end
   
     def brands
-      test_it = BRANDS.uniq
-      puts test_it
+    BRANDS << brand unless BRANDS.include?(brand)
       
       
     end
